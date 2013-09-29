@@ -1,0 +1,185 @@
+* {
+    margin: 0 0; padding: 0 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: Arial;
+}
+
+.clear { clear: both; }
+
+.main {
+    width: 758px; margin: 0 auto; padding-bottom: 30px;
+}
+
+.menu {
+    width: 758px; height: 35px; margin: 0 auto; background-color: #0089cf;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    float: left; margin: 8px 15px;
+    
+}
+
+.menu li a {
+    color: #ffffff; text-decoration: none; font-weight: bold; font-size: 12px;
+}
+
+.hov {
+    height: 27px; padding: 4px 15px;
+}
+
+.hov:HOVER {
+    height: 27px; padding: 4px 15px; background-image: url(images/hover.png);
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	zoom: 1; behavior: url('PIE.htc');
+}
+
+
+.umenu {
+    width: 758px; height: 35px; margin: 0 auto; background-color: #f6f6f6;
+}
+
+.search {
+  display: inline-block; margin: 0 0 0 20px; 
+}
+
+.um {
+    height: 35px; display: inline-block; margin: 3px 10px;
+}
+
+.um label { color: #999999; font-size: 12px; }
+.um  select { width: 110px; font-size: 12px; }
+
+.content {
+    width: 102%; margin: 20px 56px 0px; font-size: 12px;
+}
+.content1 {
+    width: 658px; margin: 0 auto; font-size: 12px;
+}
+
+.frame {
+    width: 128px; height: 200px; display: inline-block; float: left; margin: 5px 18px; position:relative;
+}
+
+.vote {
+      display: inline-block;
+}
+
+.vote button {
+   color: #ffffff; font-size: 12px; font-weight: bold; background: url(images/vote.png) no-repeat; width: 48px; height: 21px; border: none; cursor:pointer;
+} 
+
+.votetext {
+position: static; line-height: 18px;
+}
+
+.kol {
+   width: 51px; height: 23px; display: inline-block; background-image: url(images/kol.png); background-repeat: no-repeat;padding: 0 0 0 10px; color: #ffffff; font-size: 12px; line-height: 19px; font-weight: bold;
+}
+
+.kol a {
+    padding: 0 0 0 10px; color: #ffffff; font-size: 16px; font-weight: bold;
+}
+
+
+.winner { position: absolute; top:0; left:0; width: 98px; height: 77px; }
+.winner1 { background: url(images/win1.png) no-repeat; }
+.winner2 { background: url(images/win2.png) no-repeat; }
+.winner3 { background: url(images/win3.png) no-repeat; }
+.hide { visibility:hidden; }
+
+.pagination {
+   font-size: 12px; margin: 15px auto 30px; width: 355px; height: 21px;
+    
+}
+
+.numbers.nf {
+    background-color: #edefde; color: #000000; text-decoration: none; margin: 0px 5px; padding: 2px 7px;
+}
+
+.numbers.nf:HOVER {
+    background-color: #cfd4a7; color: #ffffff;
+}
+
+.div1 ul {
+    list-style-type: none;
+}
+
+.div1 li {
+    float: left; margin: 8px 20px; clear: right;
+    
+}
+
+.div1 li a {
+    color: #ffffff; text-decoration: none; font-weight: bold; 
+}
+
+.nf {
+    float: left; margin: 3px 10px; text-decoration: none;
+}
+
+.nff {
+    margin: 8px 10px;
+}
+
+h2 {
+    color: #0089cf;
+}
+
+.text {
+    width: 758px; margin: 0 auto; 
+}
+
+.cake { 
+    display: inline-block; float: left;
+    
+}
+.ptext p{
+    display: inline-block; width: 450px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pptext {
+    
+     margin: 20px auto; border-top: 2px solid #e4eaf0;
+}
+
+.zag {
+   width: 758px; margin: 0 auto;
+}
+.pptext p {
+    font-size: 12px; line-height: 18px;
+}
+
+.ucake {
+    margin: 2px 20px 2px 0px; height: 154px; float: left;
+
+}
+
+.pptext h2 {
+     margin: 10px 0 10px 0;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000000;
+}
